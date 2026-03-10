@@ -1,1 +1,3 @@
-# leetcode-week3
+Longest Common Prefix
+Easy
+The longest common prefix problem asks us to find the starting sequence of characters that is shared by every string in a given array. In simple terms, we check how many characters from the beginning of each word are the same. For example, in "flower", "flow", and "flight", all three words start with "fl", so that becomes the longest common prefix. If at any point the characters stop matching across the strings, the common prefix ends there. If the words do not share any starting characters at all, like "dog", "racecar", and "car", then the result is simply an empty string. The idea is to compare the characters at the same position across all strings until a mismatch appears or one of the strings ends.
